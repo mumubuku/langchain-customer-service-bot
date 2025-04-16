@@ -1,6 +1,6 @@
 import os
 
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "32e23c6d-8a87-4bb8-90bd-e9a554b6cbab")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 DEEPSEEK_API_BASE = "https://ark.cn-beijing.volces.com/api/v3"
 DEEPSEEK_MODEL_NAME = "deepseek-r1-250120"
 
