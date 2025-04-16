@@ -1,0 +1,14 @@
+langchain>=0.2
+langchain-community>=0.2
+langchain-openai>=0.1
+openai
+fastapi
+uvicorn
+pydantic
+faiss-cpu
+huggingface_hub
+sentence-transformers
+unstructured
+pdfminer.six
+python-multipart  # 用于处理上传的 form 文件
+tqdm              # LangChain 文档加载进度条（可选）
